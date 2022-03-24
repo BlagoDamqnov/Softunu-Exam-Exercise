@@ -68,7 +68,7 @@ namespace _03.The_Pianist
                     }
                     else
                     {
-                        Console.WriteLine("Invalid operation! {piece} does not exist in the collection.");
+                        Console.WriteLine($"Invalid operation! {piece} does not exist in the collection.");
                     }
                 }
                 command = Console.ReadLine();
